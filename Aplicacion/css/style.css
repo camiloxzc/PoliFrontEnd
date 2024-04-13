@@ -14052,5 +14052,12 @@ html:not([dir=rtl]) .wrapper {
   opacity: 0.7;
   color: #888;
 }
+.encabezado-img{
+  background-color: #f8e4cc;
+  height: 400px;
+}
+.border-circle{
+  border-radius: 24px !important;
+}
 
 /*# sourceMappingURL=style.css.map */

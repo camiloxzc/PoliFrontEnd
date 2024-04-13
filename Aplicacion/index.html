@@ -6,95 +6,127 @@
 * Licensed under MIT (https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/main/LICENSE)
 --><!-- Breadcrumb-->
 <html lang="en">
-  <head>
-    <base href="./">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <title>CoreUI Free Bootstrap Admin Template</title>
-    <link rel="manifest" href="assets/favicon/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Vendors styles-->
-    <link rel="stylesheet" href="vendors/simplebar/css/simplebar.css">
-    <link rel="stylesheet" href="css/vendors/simplebar.css">
-    <!-- Main styles for this application-->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- We use those styles to show code examples, you should remove them in your application.-->
-    <link href="css/examples.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="wrapper d-flex flex-column min-vh-100 bg-light">
-      <header class="header header-sticky mb-4">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-3">
-              Imagen
-            </div>
-            <div class="col-lg-5">
-              <ul class="header-nav d-none d-md-flex justify-content-center">
-                <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/dashboard.html">Inicio</a></li>
-                <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/services.html">Servicios</a></li>
-                <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/reviews.html">Reseñas</a></li>
-                <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/contacts.html">Contacto</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4">
-              <ul class="header-nav ms-auto">
-                <li class="nav-item ms-auto"><a class="nav-link" href="#">
-                    <svg class="icon icon-lg">
-                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-                    </svg></a></li>
-                <div class="ms-auto p-2">Buscador&nbsp;</div>
-                <div class="ms-auto justify-content-center p-2">Hi,usuario&nbsp;</div>
-                <li class="nav-item dropdown"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg" alt="user@email.com"></div>
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-end pt-0">
-                        <div class="dropdown-header bg-light py-2">
-                          <div class="fw-semibold">Settings</div>
-                        </div><a class="dropdown-item" href="#">
-                          <svg class="icon me-2">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
-                          </svg> Profile</a><a class="dropdown-item" href="#">
-                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">
-                          <svg class="icon me-2">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                          </svg> Logout</a>
-                  </div>
-                </li>
-              </ul>
+
+<head>
+  <base href="./">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+  <title>SoftApp</title>
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Vendors styles-->
+  <link rel="stylesheet" href="vendors/simplebar/css/simplebar.css">
+  <link rel="stylesheet" href="css/vendors/simplebar.css">
+  <!-- Main styles for this application-->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- We use those styles to show code examples, you should remove them in your application.-->
+  <link href="css/examples.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper d-flex flex-column min-vh-100 bg-light">
+    <header class="header header-sticky mb-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            Imagen
+          </div>
+          <div class="col-lg-5">
+            <ul class="header-nav d-none d-md-flex justify-content-center">
+              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/dashboard.html">Inicio</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/services.html">Servicios</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/reviews.html">Reseñas</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/contacts.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="header-nav ms-auto">
+              <li class="nav-item ms-auto"><a class="nav-link" href="#">
+                  <svg class="icon icon-lg">
+                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
+                  </svg></a></li>
+              <div class="ms-auto p-2">Buscador&nbsp;</div>
+              <div class="ms-auto justify-content-center p-2">Hi,usuario&nbsp;</div>
+              <li class="nav-item dropdown"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#"
+                  role="button" aria-haspopup="true" aria-expanded="false">
+                  <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg"
+                      alt="user@email.com"></div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end pt-0">
+                  <div class="dropdown-header bg-light py-2">
+                    <div class="fw-semibold">Settings</div>
+                  </div><a class="dropdown-item" href="#">
+                    <svg class="icon me-2">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
+                    </svg> Profile</a><a class="dropdown-item" href="#">
+                    <div class="dropdown-divider"></div><a class="dropdown-item"
+                      href="/Aplicacion/pages/auth/login.html">
+                      <svg class="icon me-2">
+                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+                      </svg> Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-divider"></div>
+      <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb my-0 ms-2">
+            <li class="breadcrumb-item">
+              <!-- if breadcrumb is single--><span>Home</span>
+            </li>
+            <li class="breadcrumb-item active"><span>Blank</span></li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="encabezado-img py-4 ">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+
+          <div class="col-lg-12 col-xl-12 col-xxl-12">
+            <h1 class="display-5 fw-bolder text-black text-center mb-2">Somos un grupo de trabajo aplicado</h1>
+          </div>
+          <div class="col-xl-7 col-xxl-7 d-none d-xl-block text-center">
+            <!-- <img
+                    src="https://img.freepik.com/fotos-premium/banner-universo-fascinante-e-interminable-espacio-copia-hecho-ia-generativa_155027-3416.jpg"
+                    style="width:400px" /> -->
+          </div>
+          <div class="col-lg-12 col-xl-12 col-xxl-12">
+            <div class="d-grid gap-3  justify-content-sm-center justify-content-xl-center ">
+              <p class="fs-4 m-0">
+                ¡TecnoApps es la solución prefecta para ti!
+              </p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Contactanos</a>
+
             </div>
           </div>
         </div>
-        <div class="header-divider"></div>
-        <div class="container-fluid">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb my-0 ms-2">
-              <li class="breadcrumb-item">
-                <!-- if breadcrumb is single--><span>Home</span>
-              </li>
-              <li class="breadcrumb-item active"><span>Blank</span></li>
-            </ol>
-          </nav>
-        </div>
-      </header>
-      <div class="body flex-grow-1 px-3">
-        <div class="container-lg">
-        </div>
       </div>
-      <footer class="footer">
-        <div><a href="https://coreui.io">CoreUI </a><a href="https://coreui.io">Bootstrap Admin Template</a> © 2023 creativeLabs.</div>
-        <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/docs/">CoreUI UI Components</a></div>
-      </footer>
+    </section>
+    <div class="body flex-grow-1 px-3">
+      <div class="container-lg">
+      </div>
     </div>
-    <!-- CoreUI and necessary plugins-->
-    <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
-    <script src="vendors/simplebar/js/simplebar.min.js"></script>
-    <script>
-    </script>
+    <footer class="footer">
+      <div><a href="https://coreui.io">CoreUI </a><a href="https://coreui.io">Bootstrap Admin Template</a> © 2023
+        creativeLabs.</div>
+      <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/docs/">CoreUI UI Components</a></div>
+    </footer>
+  </div>
+  <!-- CoreUI and necessary plugins-->
+  <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
+  <script src="vendors/simplebar/js/simplebar.min.js"></script>
+  <script>
+  </script>
 
-  </body>
+</body>
+
 </html>
