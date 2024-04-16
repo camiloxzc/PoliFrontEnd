@@ -14056,6 +14056,14 @@ html:not([dir=rtl]) .wrapper {
   background-color: #f8e4cc;
   height: 400px;
 }
+.banner-img {
+  max-width: 100%;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/Aplicacion/assets/img/inicio.jpg);
+  height: calc(100vh - 70.4px);
+}
 .border-circle{
   border-radius: 24px !important;
 }

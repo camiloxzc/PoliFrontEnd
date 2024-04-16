@@ -30,7 +30,7 @@
 
 <body>
   <div class="wrapper d-flex flex-column min-vh-100 bg-light">
-    <header class="header header-sticky mb-4">
+    <header class="header header-sticky">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-3">
@@ -39,55 +39,24 @@
           <div class="col-lg-5">
             <ul class="header-nav d-none d-md-flex justify-content-center">
               <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/dashboard.html">Inicio</a></li>
-              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/services.html">Servicios</a></li>
-              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/reviews.html">Reseñas</a></li>
-              <li class="nav-item me-4"><a class="nav-link" href="/Aplicacion/pages/contacts.html">Contacto</a></li>
+              <li class="nav-item me-6"><a class="nav-link" href="/Aplicacion/pages/contacts.html">Contacto</a></li>
             </ul>
           </div>
           <div class="col-lg-4">
-            <ul class="header-nav ms-auto">
-              <li class="nav-item ms-auto"><a class="nav-link" href="#">
-                  <svg class="icon icon-lg">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-                  </svg></a></li>
-              <div class="ms-auto p-2">Buscador&nbsp;</div>
-              <div class="ms-auto justify-content-center p-2">Hi,usuario&nbsp;</div>
-              <li class="nav-item dropdown"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#"
-                  role="button" aria-haspopup="true" aria-expanded="false">
-                  <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg"
-                      alt="user@email.com"></div>
-                </a>
-                <div class="dropdown-menu dropdown-menu-end pt-0">
-                  <div class="dropdown-header bg-light py-2">
-                    <div class="fw-semibold">Settings</div>
-                  </div><a class="dropdown-item" href="#">
-                    <svg class="icon me-2">
-                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
-                    </svg> Profile</a><a class="dropdown-item" href="#">
-                    <div class="dropdown-divider"></div><a class="dropdown-item"
-                      href="/Aplicacion/pages/auth/login.html">
-                      <svg class="icon me-2">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                      </svg> Logout</a>
-                </div>
-              </li>
-            </ul>
+            <div class="row">
+              <div class="col p-2">
+                <i class="fa-solid fa-magnifying-glass fa-xl float-end m-3"></i>
+              </div>
+              <div class="col ms-auto justify-content-center p-2">
+                <button class="btn btn-outline-secondary mr-2 ml-2">Registrase</button>
+                <button class="btn btn-outline-primary mr-2 ml-2">Iniciar sesión</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="header-divider"></div>
-      <div class="container-fluid">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb my-0 ms-2">
-            <li class="breadcrumb-item">
-              <!-- if breadcrumb is single--><span>Home</span>
-            </li>
-            <li class="breadcrumb-item active"><span>Blank</span></li>
-          </ol>
-        </nav>
-      </div>
     </header>
-    <section class="encabezado-img py-4 ">
+    <section class="banner-img py-4 ">
       <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center">
 
@@ -115,15 +84,16 @@
       <div class="container-lg">
       </div>
     </div>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div><a href="https://coreui.io">CoreUI </a><a href="https://coreui.io">Bootstrap Admin Template</a> © 2023
         creativeLabs.</div>
       <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/docs/">CoreUI UI Components</a></div>
-    </footer>
+    </footer> -->
   </div>
   <!-- CoreUI and necessary plugins-->
   <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
   <script src="vendors/simplebar/js/simplebar.min.js"></script>
+  <script src="https://kit.fontawesome.com/f76dcc0686.js" crossorigin="anonymous"></script>
   <script>
   </script>
 
