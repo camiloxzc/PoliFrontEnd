@@ -14067,5 +14067,9 @@ html:not([dir=rtl]) .wrapper {
 .border-circle{
   border-radius: 24px !important;
 }
+.register {
+  text-decoration: none; /* Quita el subrayado */
+  color: #B3ADAD; /* Cambia el color del texto a rojo */
+}
 
 /*# sourceMappingURL=style.css.map */
